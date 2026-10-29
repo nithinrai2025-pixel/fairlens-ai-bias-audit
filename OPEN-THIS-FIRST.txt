@@ -1,0 +1,28 @@
+FAIRLENS — முதலில் இதைப் படிக்கவும் / START HERE
+
+தமிழில் எளிய வழிமுறை:
+1. ZIP-ஐ Download செய்து Windows-ல் Right-click > Extract All செய்யவும்.
+2. Extract செய்த folder-ஐ திறக்கவும்.
+3. START-HERE.html என்ற கோப்பை இருமுறை click செய்யவும். Chrome / Edge browser-ல் திறக்க வேண்டும்.
+4. இடது பக்கத்தில் “Tamil Nadu Dataset (250)” என்பதைத் தேர்வு செய்யவும்.
+5. 250 கற்பனைப் பதிவுகளைத் தேடவும்; “Download all 250 records as CSV” மூலம் Excel-ல் திறக்கலாம்.
+6. “New Audit” மூலம் ஒரு prompt உருவாக்கவும். “Response Comparison” பகுதியில் உண்மையான AI பதில்களை copy/paste செய்து ஆய்வு செய்யலாம்.
+7. “Export Centre” மூலம் CSV / JSON / report பதிவிறக்கம் செய்யலாம்.
+
+If START-HERE.html does not open:
+- Do not try to open it inside the ZIP. First choose Extract All.
+- After extraction, right-click START-HERE.html > Open with > Google Chrome or Microsoft Edge.
+- The offline app does not need Node.js, npm, an API key, or internet access.
+
+DATASET DETAILS:
+- 250 synthetic records / 125 matched A-B pairs.
+- English + Tamil names, district labels, region group, education, occupation context, audit task.
+- Names and profiles are fictional sample data, not real people, not official Tamil Nadu records, and not survey results.
+- Each matched pair is designed to keep context fields constant while varying a name cue. Never infer caste, religion, ability or trustworthiness from a name.
+- response_text is intentionally blank; collect actual model responses before reporting empirical findings.
+
+IMPORTANT LIMITATIONS:
+- Offline HTML does not call live AI providers. You must paste real responses manually.
+- Data is stored only in this browser on this device (localStorage); export a backup if needed.
+- Full Next.js source is included but needs Node.js/npm dependency installation; it was not build-tested here because package installation timed out.
+- This is an academic prototype, not a deployed cloud service or a fully production-ready system.
